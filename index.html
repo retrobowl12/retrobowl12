@@ -14,13 +14,18 @@
       text-align: center;
     }
 
-    /* Banner style */
+    /* Full-width banner style */
     .banner {
       width: 100%;
-      max-width: 800px; /* Limits the max width of the banner */
-      height: auto;
+      height: 250px; /* Adjust the height as needed */
+      object-fit: cover;
+    }
+
+    /* Style for logos above each button */
+    .logo {
       display: block;
-      margin: 0 auto;
+      margin: 10px auto;
+      width: 100px; /* Adjust logo size as needed */
     }
 
     /* Style for the buttons */
@@ -48,12 +53,16 @@
 </head>
 <body>
 
-  <!-- Banner spot (replace src with your desired image URL) -->
-  <img src="https://via.placeholder.com/800x200.png?text=Retro+Bowl+Banner" alt="Retro Bowl Banner" class="banner">
+  <!-- Full-width banner (replace src with your desired image URL) -->
+  <img src="https://via.placeholder.com/1920x250.png?text=Retro+Bowl+Banner" alt="Retro Bowl Banner" class="banner">
   
-  <!-- Buttons below the banner -->
+  <!-- Logo and button set 1 -->
+  <img src="https://encrypted-tbn0.gstatic.com/images?q=tbn:ANd9GcSvGWuYuW-_jhBRTx8MBteosozKh9YwJ45pqg&s" alt="Retro Bowl Logo" class="logo">
   <a href="https://ubggo.github.io/ub-games/retrobowl/" class="button" target="_blank">Play Retro Bowl</a>
-  <a href="https://ubggo.github.io/ub-games/retrobowl/" class="button" target="_blank">Play Retro Bowl College</a>
+
+  <!-- Logo and button set 2 -->
+  <img src="https://encrypted-tbn0.gstatic.com/images?q=tbn:ANd9GcSvGWuYuW-_jhBRTx8MBteosozKh9YwJ45pqg&s" alt="Retro Bowl Logo" class="logo">
+  <a href="https://ubggo.github.io/ub-games/retrobowl/" class="button" target="_blank">More Games</a>
 
 </body>
 </html>
